@@ -13,7 +13,8 @@
        ![trainwith1200600_1](https://github.com/cyy202419/note/assets/64142343/8f5827e0-9470-4956-bdcf-ac0b3e5e37b8)
         5. 尝试(X_1 Y_1 Z_1 ...X_64 Y_64 Z_64)/L + 盒子大小L + 温度 + 密度，温度、密度特征似乎多余
         ![trainwith12006000_3](https://github.com/cyy202419/note/assets/64142343/748bc1c8-8a31-4df1-bd14-6d4cf911ab81)
-    2. 尝试不同的训练数据集组合（train on 1200K and 6000K data/train on 1200K and 3000K data）；尝试使用卷积方法来平滑能量数据，降低噪声。
+    2. 尝试不同的训练数据集组合（train on 1200K and 6000K data/train on 1200K and 3000K data）；尝试使用卷积方法来平滑能量数据，降低噪声。![trainwith12006000_4](https://github.com/cyy202419/note/assets/64142343/f4d11820-eaef-4bec-a646-ef7cc5b67972)
+
     3. 调整learning_rate、batch_size等
  6. 后续计划
     1. 继续《Probabilistic Machine Learning》的学习
