@@ -1,19 +1,23 @@
 ## 陈阳阳的学习进展（5.10）
 ### 内容
 1. 尝试GPU加速：在windows上配置wsl，成功实现GPU加速深度学习。
-2. 阅读`Probabilistic Machine Learning`
-3. 探索`Hydrogen in a box`
+2. 阅读`Probabilistic Machine Learning(Introduction)`
+3. 探索`Hydrogen in a box`，尝试增强数据，尝试应用正则化、dropout、Batchnorm。
 
 ### Hydrogen in a box
 #### 增强数据
 1. 思路：所有原子平移L，输出不变——分别沿x,y,z轴平移L。
 2. 特征：{64个原子xyz坐标/L，L，温度，密度}。由 $\\{(x+a, y+b, z+c)|a,b,c \in \\{-1, 0, 1 \\}\\}$ ，x,y,z为体系坐标，从而增强数据27倍。
-3. 结果：过拟合，预测不佳
+3. 结果：
 <img src="https://github.com/cyy202419/note/assets/64142343/678807ef-54b4-4975-8961-b3081477d99f" alt="DNN" title="DNN" width="500" />
+利用相同的思路可以增强测试集数据：
+<img src="https://github.com/cyy202419/note/assets/64142343/b4b1942c-d90e-41a5-baab-f0ff11b75f8d" alt="DNN" title="DNN_MORETEST" width="500" />
+
  
-#### L2正则化，BatchNorm
-1. L2, BatchNorm的效果不佳
-2. BatchNorm效果：
+#### L1, L2正则化，BatchNorm
+1. L1正则化：
+<img src="https://github.com/cyy202419/note/assets/64142343/5fa36e3a-b280-4e4e-a4a1-c3db27190ee1" alt="L1" title="L1" width="500" />
+3. BatchNorm效果：
 <img src="https://github.com/cyy202419/note/assets/64142343/d7691a7d-e267-4362-8783-77ad579ddf23" alt="Use BatchNorm" title="Use BatchNorm" width="500" />
 
 #### Dropout
