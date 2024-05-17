@@ -57,5 +57,6 @@
  - 数学问题：已知所有原子对间距，是否可以唯一确定所有原子相对位置？（似乎不是）
 
 ### 计划
-1. 尝试使用Pytorch, tensorflow等封装好的工具训练
-2. More reading...
+1. 尝试使用PyTorch, TensorFlow等封装好的工具训练。
+2. 尝试把所有成对坐标差分作为特征
+3. 代码写的烂，急需`Effective Python` `流畅的Python`
