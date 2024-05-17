@@ -1,6 +1,6 @@
 ## 陈阳阳的学习进展（5.10）
 ### 内容
-1. 尝试GPU加速：在windows上配置wsl，成功实现GPU加速深度学习。
+1. 尝试GPU加速：在本机windows上配置wsl，成功实现GPU加速深度学习。
 2. 阅读`Probabilistic Machine Learning(Introduction)`，主要是Chapter 11, 13。
 3. 探索`Hydrogen in a box`，能量误差太大了，只训练了压强。
 	1. 尝试增强数据。尝试应用L1，L2正则化、dropout、Batchnorm。
@@ -59,4 +59,4 @@
 ### 计划
 1. 尝试使用PyTorch, TensorFlow等封装好的工具训练。
 2. 尝试把所有成对坐标差分作为特征
-3. 代码写的烂，急需`Effective Python` `流畅的Python`
+3. 代码写的烂，需`Effective Python` `流畅的Python`
