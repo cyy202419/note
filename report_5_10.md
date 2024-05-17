@@ -5,7 +5,7 @@
 3. 探索`Hydrogen in a box`，能量误差太大了，只训练了压强。
 	1. 尝试增强数据。尝试应用L1，L2正则化、dropout、Batchnorm。
 	2. 尝试多种超参数搭配；
-4. 在看Effective Python/流畅的Python。
+4. 在看`Effective Python` `流畅的Python`。
 
 ### Hydrogen in a box
 #### 增强数据
